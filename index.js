@@ -7,3 +7,8 @@ function number(num){
     return true
 }
 console.log(number(25));
+function evenOdd(num){
+    if(num%2==0) return true;
+return false;
+}
+console.log(evenOdd(22));
